@@ -1,0 +1,21 @@
+.ConversationList {
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    color: rgba(0,0,0,.87);
+    background-color: transparent;
+}
+.scrollbar{
+    position: relative;
+    height: 100%;
+    overflow: hidden !important;
+    overflow-anchor: none;
+    touch-action: auto;
+}
+
+.ConversationList > .scrollbar > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
