@@ -11,7 +11,7 @@ export default class ConversationList extends React.Component<unknown, unknown> 
         return (
             <div className="ConversationList">
                 <div className="scrollbar">
-                    <ul>
+                    <ul style={{padding: '15px',margin: 0}}>
                        {children}
                     </ul>
                 </div>

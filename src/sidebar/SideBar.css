@@ -5,5 +5,17 @@
     flex-basis: 35%;
     border-right: solid 1px #d1dbe3;
     z-index: 2;
+}
 
+.SideBarImgItem {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.SideBarImgItem > img{
+    width:80%;
+    height:80%;
+    border:1px dotted black;
+    border-radius: 50%;
+    margin: 10%;
 }
