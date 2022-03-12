@@ -1,5 +1,5 @@
 import React from 'react';
-import './ConversationList'
+import './ConversationList.css'
 
 export default class ConversationList extends React.Component<unknown, unknown> {
     constructor(props: any) {
