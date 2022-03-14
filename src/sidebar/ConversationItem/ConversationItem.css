@@ -1,0 +1,14 @@
+.ConversationItem {
+    list-style: none;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+.ConversationItem:hover {
+    background-color: #c6e3fa;
+}
+
+.ConversationItem:active {
+    background-color: #8fa9c0;
+}
