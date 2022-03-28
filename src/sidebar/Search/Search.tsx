@@ -3,7 +3,7 @@ import './Search.css'
 
 export default class Search extends React.Component<{onChange: ChangeEventHandler}, unknown> {
     constructor(props: {onChange: ChangeEventHandler}) {
-        super(props);
+        if(!!props) super(props);
     }
 
 

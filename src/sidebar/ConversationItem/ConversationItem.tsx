@@ -1,9 +1,14 @@
 import React, {MouseEvent} from 'react';
 import './ConversationItem.css'
 
-export default class ConversationItem extends React.Component<{ onClick?: Function }, unknown> {
-    constructor(props: any) {
-    super(props);
+export type ConversationItemType = { onClick?: Function }
+
+export type ConversationItemStateType = any;
+
+
+export default class ConversationItem extends React.Component<ConversationItemType, ConversationItemStateType> {
+    constructor(props: ConversationItemType | undefined) {
+        if(!!props) super(props);
     }
 
     onClick(e: MouseEvent){
